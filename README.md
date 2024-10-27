@@ -1,47 +1,65 @@
-# MOOC
-在线视频教育网站SSM框架
-此项目同时是本人的毕业设计！
-联系我：ccnoobs@sina.com<br>
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-<br>
-1)登录模块
-在进入系统首页后，首先看到的是登录界面，该界面会提供注册用户的功能，在登录界面，输入用户名之后，
-首先要发送ajax请求验证用户名是否存在，第一时间内给用户提示。
-2)客户端模块
-本模块分为密钥管理，角色管理，权限管理，个人信息，课程信息等组成。
-3)后台管理模块
-本模块包括用户管理，作品信息管理等。
-用户管理：提供管理员查询用户，锁定解锁用户，修改用户信息，充值余额。
-课程信息管理：提供管理员增加删除修改功能。
-系统日志查看：查看所有系统的动作信息。
-访问ip管理：提供对访问IP的管理，可以进行拉黑IP等操作。 
- 
-后台访问地址：admin
-测试用户：1823544517
-测试密码：123654
+基于Springboot的在线视频教育网站系统
+=
+### 完整代码获取地址：从戎源码网 ([https://armycodes.com/](https://armycodes.com/))
+### 作者微信：19941326836  QQ：952045282 
+### 承接计算机毕业设计、Java毕业设计、Python毕业设计、深度学习、机器学习
+### 选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 一条龙服务
+### 所有选题地址https://github.com/nature924/allProject
 
-管理员账户：admin
-管理员密码：admin
+一、项目介绍
+---
+基于SpringBoot框架的实现的在线视频教育网站系统，本系统共分为2个角色：系统管理员、用户，主要功能如下
 
-充值密码以及删除密码为：591284209
+### 【用户】：
+1. 首页：用户可以浏览课程的推荐内容、热门内容、最新内容等，并可以进行课程搜索。
+2. 会员中心：用户可以查看自己的会员信息，包括会员等级、到期时间等，并可以进行会员续费等操作。
+3. 课程查找：用户可以根据关键词、课程分类等条件进行课程查找，并可以查看课程的详细信息。
+4. 学习课程：用户可以选择并学习感兴趣的课程，包括观看视频、下载学习资料、查看课程讨论等。
+5. 个人信息：用户可以查看和编辑自己的个人信息，包括头像、昵称、联系方式等。
+6. 我的课程：用户可以查看自己已购买或正在学习的课程，包括课程名称、讲师、学习进度等。
 
----------------------MOOC V1.01更新----------------------------------<br>
-重构主页index页面，使用bootstrap重写配适浏览器不同分辨率，后台管理页面全部完成配适浏览器分辨率。<br>
-2019.5.8更新
-
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/1.png)
+### 【管理员】：
+1. 用户管理：管理员可以管理网站的用户信息，包括查看用户列表、编辑用户信息和删除用户等操作。
+2. 课程管理：管理员可以管理网站的课程信息，包括添加新的课程、编辑课程信息和删除课程等操作。
+3. 日志管理：管理员可以查看网站的操作日志，包括用户的登录日志、课程的访问日志等，并可以进行导出和删除操作。
+4. IP管理：管理员可以管理用户的IP地址，包括查看IP列表、封禁IP和解封IP等操作。
 
 
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/3.png)
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/4.png)
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/5.png)
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/6.png)
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/7.png)
 
-![Image text](https://raw.githubusercontent.com/yourmaileyes/MOOC/master/WebContent/show/8.png)
+二、项目技术
+---
+- 编程语言：Java
+- 数据库：MySQL
+- 项目管理工具：Maven
+- 前端技术：VUE、HTML、Jquery、Bootstrap
+- 后端技术：Spring、SpringMVC、MyBatis
+
+三、运行环境
+---
+- 操作系统：Windows、macOS都可以
+- JDK版本：JDK1.8以上都可以
+- 开发工具：IDEA、Ecplise、Myecplise都可以
+- 数据库: MySQL5.7以上都可以
+- Tomcat：任意版本都可以
+- Maven：任意版本都可以
+
+四、运行截图
+---
+### 论文截图：
+![image/1.png](limage/1.png)
+
+### 程序截图：
+![image/1.png](image/1.png)
+![image/1.png](image/2.png)
+![image/1.png](image/3.png)
+![image/1.png](image/4.png)
+![image/1.png](image/5.png)
+![image/1.png](image/6.png)
+
+
+
